@@ -1,0 +1,3 @@
+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
+
+git remote set-url origin https://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@github.com/YoucefAK/gitdemo.git
