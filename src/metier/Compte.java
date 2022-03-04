@@ -11,6 +11,7 @@ public class Compte{
 
 	public void verser(float mt) {
 		solde=solde+mt;
+		System.out.println("Le solde est =" + solde);
 	}
 	public void retirer (float mt) {
 		solde=solde-mt;
