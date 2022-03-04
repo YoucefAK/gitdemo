@@ -19,6 +19,11 @@ public class Compte{
 
 	}
 
+	public void retire (float mt) {
+		solde=solde-mt;
+		System.out.println("Le solde est =" + solde);
+
+	}
 	public String toString() {
 		return ("Code="+code+"Solde "+solde);
 
