@@ -11,6 +11,10 @@ public class Application {
 		c1.verser(45000);
 		c1.retirer(80000);
 		System.out.println(c1.toString());
+		System.out.println("Le montant final est = "+c1.toString());
+		c1.verser(45000);
+		c1.retirer(80000);
+		System.out.println(c1.toString());
 		
 	}
 
